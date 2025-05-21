@@ -4,17 +4,17 @@ const BeforeAfter: React.FC = () => {
   const interiorExamples = [
     {
       id: 1,
-      image: '/1.jpg',
+      image: '/src/components/1.jpg',
       alt: 'Interior painting example 1'
     },
     {
       id: 2,
-      image: '/2.jpg',
+      image: '/src/components/2.jpg',
       alt: 'Interior painting example 2'
     },
     {
       id: 3,
-      image: '/3.jpg',
+      image: '/src/components/3.jpg',
       alt: 'Interior painting example 3'
     }
   ];
@@ -32,7 +32,7 @@ const BeforeAfter: React.FC = () => {
             {/* Before Image */}
             <div className="relative">
               <img
-                src="/oldhouse.jpg"
+                src="/src/utils/oldhouse.jpg"
                 alt="Before transformation"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
                 style={{ maxHeight: '400px' }}
@@ -45,7 +45,7 @@ const BeforeAfter: React.FC = () => {
             {/* After Image */}
             <div className="relative">
               <img
-                src="/newhouse.jpg"
+                src="/src/utils/newhouse.jpg"
                 alt="After transformation"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
                 style={{ maxHeight: '400px' }}
